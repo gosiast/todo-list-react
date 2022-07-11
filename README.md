@@ -72,3 +72,9 @@ render() {
 <img src="https://avatars.githubusercontent.com/u/92160569" alt="Malgorzata" width="120"/>
 
 [Malgorzata Stano](mailto:stano.malgorzata@gmail.com)
+
+
+### How to run the app
+
+Run `npm install` and then `npm start` and you'll 
+see the application running at [http://localhost:3000](http://localhost:3000)
