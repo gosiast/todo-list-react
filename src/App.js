@@ -1,23 +1,23 @@
 import logo from "./logo.svg";
 import "./App.css";
+import TodoItem from "./components/TodoItem";
+
+const state = {
+	todos: [
+		{ id: 1, task: "Walk the dog", done: false },
+		{ id: 2, task: "Water the flower", done: true },
+	],
+};
+
+function mappingEachItem(todo) {
+	return <TodoItem task={todo.task} />;
+}
 
 function App() {
 	return (
 		<div className="App">
-			<header className="App-header">
-				<img src={logo} className="App-logo" alt="logo" />
-				<p>
-					Edit <code>src/App.js</code> and save to reload.
-				</p>
-				<a
-					className="App-link"
-					href="https://reactjs.org"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Hello World{" "}
-				</a>
-			</header>
+			The app is here
+			<ul>{state.todos.map(mappingEachItem)}</ul>
 		</div>
 	);
 }
