@@ -2,11 +2,9 @@
 
 [Demo App](https://codepen.io/marekdano/pen/bVNYpq) _(Don't bother with the code, reading/using it will just overcomplicate your progress)_
 
-
 ### App Structure
 
 You will have **3 Components:**
-
 
 #### 1. App.js
 
@@ -21,15 +19,11 @@ Initialize it with the following state:
   }
 ```
 
-
-
 #### 2. TodoItem
 
 This is the component for **each todo list item**.
 
 There will be **no state** in this component, so make it a _Stateless Functional Component_.
-
-
 
 #### 3. TodoForm
 
@@ -52,7 +46,6 @@ render() {
 }
 ```
 
-
 ---
 
 ### App Behavior
@@ -62,9 +55,7 @@ render() {
 3. Users can mark a task as done by clicking on the task itself.
 4. There should be obvious styling that differentiate between completed and incomplete tasks.
 
-
 ---
-
 
 ### Better UIUX
 
@@ -72,9 +63,12 @@ render() {
 2. Do not allow users to add task with empty string
 3. Make it look awesome!
 
-
 ### Contributors
 
-<img src="https://avatars.githubusercontent.com/u/1714040" alt="drawing" width="120"/>
+<img src="https://avatars.githubusercontent.com/u/1714040" alt="Agustin" width="120"/>
 
 [Agustin Castiarena](mailto:castiarena@gmail.com)
+
+<img src="https://avatars.githubusercontent.com/u/92160569" alt="Malgorzata" width="120"/>
+
+[Malgorzata Stano](mailto:stano.malgorzata@gmail.com)
