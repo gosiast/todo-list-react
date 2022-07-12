@@ -13,3 +13,7 @@
 	max-width: 480px;
 	padding: 2rem;
 }
+
+.app--todolist {
+	padding: 0;
+}
