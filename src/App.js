@@ -48,6 +48,10 @@ class App extends React.Component {
 
 	}
 
+	onDeleteItem = () => {
+		alert("I want to delete")
+	}
+
 	render() {
 		// destructuring of an object https://www.w3schools.com/react/react_es6_destructuring.asp
 		const { todos } = this.state;
@@ -57,9 +61,9 @@ class App extends React.Component {
 				<div className="app--container">
 					<h2>TO-DO list</h2>
 
-					<ul>
+					<ul className="app--todoList">
 						{todos.map((todo) =>
-							<TodoItem task={todo.task} />
+							<TodoItem itemDelete={this.onDeleteItem} todo={todo} />
 						)}
 					</ul>
 
